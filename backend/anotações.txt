@@ -1,0 +1,38 @@
+
+
+#pacotes 
+-- Para ficar verificando se existe mudança nos arquivos e reiniciar o servidor;
+    --> npm install nodemom -D
+    --> npm start, criando o script DEV dentro do package.json
+
+-- utilizaremos o Knex para o QueriBuilder com o BD;
+    --> npm install knex;
+
+-- utilizaremos o SqLite, banco relacional;
+    --> npm install npm install sqlite3;
+
+-- iniciaremos o arquivo de inicialização do Knex
+    --> npx knex init;
+
+
+#etapas:
+    Definir as etapas(passos) de criação e configuração do projeto;
+
+    --> Definindo as migrations (arquivos de estrutura do banco de dados);
+    --> criando a pasta migrations dentro do diretorio database;
+    --> npx knex migrate:make create-ongs;
+    --> npx knex migrate:make create-incidents;
+    --> para rodar uma migrate -> npx knex migrate:latest;
+    --> para apagar a ultima migrate -> npx knex migrate:rollback;
+
+    --> Criação de Controllers para melhorar a estrutura do projeto  
+        - src/controllers/OngController - (todos os metodos comuns que uma ONG pode realizar);
+
+
+
+
+    
+
+
+
+
