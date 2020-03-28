@@ -29,6 +29,13 @@
         - src/controllers/OngController - (todos os metodos comuns que uma ONG pode realizar);
 
 
+** Projeto WEB **
+	
+	Utilizaremos o React para desenvolvimento da aplicação WEB
+		-> npx create-reat-app [nome_do_projeto]	
+	-> instalação de lib para utilização de Icones -> npm install react-icons;
+	--> instalãção de lib para usar rotas na nossa aplicação -> npm install react-router-dom
+
 
 
     
